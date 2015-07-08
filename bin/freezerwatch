@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+absolute_pwd = File.expand_path(File.dirname(__FILE__))
+command = "#{absolute_pwd}/../node_modules/freezerwatch/freezerwatch"
+ARGV.each do |parameter|
+  command += " #{parameter}"
+end
+exec command
+  
