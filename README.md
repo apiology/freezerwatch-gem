@@ -2,6 +2,7 @@
 
 This gem is a simple wrapper of the npm module called 'freezerwatch', available at https://github.com/apiology/freezerwatch
 
+This is mainly useful if you have a Ruby program that needs to use freezerwatch and you don't want to package both a Gemfile and a package.json.
 
 ## Installation
 
@@ -21,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-See https://github.com/apiology/freezerwatch
+'bundle exec freezerwatch <options>'
+
+See https://github.com/apiology/freezerwatch for more detail.
+
+## Credits
+
+Thanks to this post, which made this a relatively painless operation: http://mokagio.github.io/tech-journal/2015/02/25/ruby-make-a-gem-that-wraps-a-node-module.html
 
 ## Development
 
