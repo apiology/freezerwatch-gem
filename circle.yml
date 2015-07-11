@@ -1,3 +1,6 @@
+test:
+  override:
+    - 'true' # no tests for now
 dependencies:
     pre:
       - gem install bundler --pre
