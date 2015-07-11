@@ -1,5 +1,6 @@
 dependencies:
-    pre:
+    post:
       - gem uninstall bundler
       - gem install bundler --pre
+              
               
